@@ -1,0 +1,112 @@
+/* CSS Document */
+
+body
+{
+
+  background-image: url(../images/background.jpg);
+  /*background-repeat:no-repeat;*/
+  background-color:#619868;
+  color:black;
+  background-position:50% 75%;
+  background-attachment:fixed;
+
+}
+
+
+#content-area
+{
+  background-image: url(../images/zooracle_.png);
+  background-position: top;
+  width:800px;
+  
+  margin:0 auto;
+  margin-top:2em;
+  background-repeat:no-repeat;
+  padding-top:143px;
+  padding-left:20px;
+  font-family:Verdana,Helvetica;
+  font-size:1.1em
+}
+
+.content-title
+{
+  background-color:white;
+  border:3px solid black;
+  border-radius:1em;
+  padding:0.9em;
+  margin-right:2em;
+  margin-top:3em;
+	/*-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	filter: alpha(opacity=70);
+	-moz-opacity:0.7;
+	-khtml-opacity: 0.7;
+	opacity: 0.7;
+                 */
+                     box-shadow: 3px 5px 0px #000;
+  
+  
+}
+
+.figure
+{
+
+  border-radius:1em;
+    border:2px solid black;
+    margin:1em 0 1em 0;
+    
+} 
+
+.content-text
+{
+  background-color:white;
+  border:3px solid black;
+  border-radius:1em;
+  margin-right:2.1em;
+  
+  padding:0.9em;
+  margin-top:.5em;
+  
+  padding-top:20px;
+	/*-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	filter: alpha(opacity=70);
+	-moz-opacity:0.7;
+	-khtml-opacity: 0.7;
+	opacity: 0.7;*/
+  font-size:0.9em;
+  text-align:justify;
+  line-height:1.4em;
+      box-shadow: 3px 5px 0px #000;
+  
+  
+}
+
+.imgtext
+{
+  font-size:0.8em;
+  line-height:0.9em;
+  margin:-0.6em 0.5em 1.3em 0.5em;
+  text-align:left;
+}
+
+
+p  
+{
+margin-left:1em;
+}
+
+.ml
+{
+float:right;
+margin-top:-2px;
+}
+
+h1
+{
+font-size:1.5em;
+font-weight:normal;
+margin:0em;
+  text-align:center;
+color:black;
+  
+
+}

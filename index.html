@@ -1,1 +1,101 @@
-My Page
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<body background="./images/background.jpg">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
+  
+  <meta name="generator" content="Zooracle, Mobile Animal Scan">
+  <link rel="stylesheet" type="text/css" href="./css/style.css" media="screen">
+  <title>Zooracle: Mobile Animal Identification and Classification</title>
+  </head>
+  <body>
+  <div>
+    <div id="content-area">
+      <div class="content-title"><h1>identify and classify animals, live!</h1></div>
+      <div class="content-text">
+        Zooracle is a device that lets you take photos of animals and analyze
+        their unique visual patterns. Within minutes, the software is able to tell you,
+        whether an animal of a certain species, has already been found, or if it is a new individual.
+        Thanks to state-of-the-art computer vision algorithms, these assertions come with a very
+        high accuracy, namely around 90-100%!<br>&nbsp;<br>
+        
+        <p><strong>Visual recognition is highly efficient, that means no more invasive marking methods are required - 
+        stress may be reduced, drastically.</strong></p>
+
+        <p><strong>Checkout our <a href="https://github.com/fossasia/zooracle">repository on GitHub</a> and join our chat on <a href="https://gitter.im/fossasia/zooracle">Gitter</a>.</strong></p>
+        
+        
+        <center><img class="figure" src="./images/cambothsides.jpg" width="720"><br>
+        <div class="imgtext">
+          <strong>figure</strong>: the Zooracle device. A Raspberry Pi Computer with a touchscreen and a camera,
+          in a custom-designed case (unit of length in centimeters).  
+        </div> </center>
+        
+        The device consists of low-cost, yet reliable components:
+        <ul type="disc">
+          <li>Raspberry PI B+ computer</li>
+          <li>LCD touchscreen (PiTFT)</li>
+          <li>battery (may be charged via USB, i.e. with solar panels)</li>
+          <li>5 MP camera (Raspberry Pi Cam Module, infrared optional)</li>
+          <li>LED light (optional)</li>
+          <li>GPS (optional)</li>
+          <li>WiFi (optional)</li>
+        </ul>
+        
+        Zooracle will be shipped along with the software, that will hold the following key functions:
+        <ul type="disc">
+          <li>Take a photo of an individual animal, including fully automatic image quality check</li>
+          <li>Run analysis and compare new individual with individuals in the local database</li>
+          <li>Let the software assert, whether the individual is new or already exists (match)</li>
+          <li>Manage database entries, add descriptions and export</li>
+        </ul>
+        
+        How does it work? Zooracle makes use of modern approaches from the field of computer vision,
+        including image description and clustering algorithms. The result so far already delivers
+        outstanding classification accuracies. For large-scale animal databases, machine learning
+        algorithms may be utilized.
+          
+        
+        <center><img class="figure" src="./images/comparison.jpg" width="530"><br>
+        <div class="imgtext" style="width:530px">
+          <strong>figure</strong>: comparison example with yellow-bellied toads, visualizing
+          good keypoint matches. On the left: two images of the same individual. On the right: different individuals.
+        </div></center>
+        
+        Unlike the figure suggests, the photos don't necessarily have to be aligned or cropped - the software does it! Photos
+        are being pre-processed, and the description of patterns is rotational invariant. The only thing you have to do is
+        to take the picture.
+        
+        
+        <center><img class="figure" src="./images/correlationmatrix.jpg" width="530"><br>
+        <div class="imgtext" style="width:530px">
+          <strong>figure</strong>: feature cross-correlation within a test data set of yellow-bellied toads.
+          Same individuals match with very high significance, while unequal individuals deliver only a few good matches. 
+        </div></center>
+        
+
+        
+      </div>
+          
+      <div class="content-title"><h1>Contact</h1></div>
+       <div class="content-text">
+       Falk Eckhardt, M.Sc., biology <img class="ml" src="./images/fm.jpg" width="180"><br>
+       Willi Döring, M.Sc., software development lead <img class="ml" src="./images/wm.jpg" width="180"><br>
+	   Maria Goltsova, M.Sc., software development<br>
+       &nbsp;<br>
+       <small>(c) Zooracle 2015, all rights reserverd</small><br> 
+        
+       </div>       
+    </div>          
+
+    </div>
+
+  
+  
+  
+  
+
+  
+
+</body></html>
